@@ -4,4 +4,4 @@ EXPOSE 8080
 COPY target/*.war /usr/local/tomcat/webapps/myweb.war
 #COPY /var/lib/jenkins/workspace/DOCKER-APP/target/myweb-0.0.6.war /usr/local/tomcat/webapps/myweb.war
 # testing webhook
-#test
+#test1

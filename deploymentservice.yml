@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: example
+  name: my-app
 spec:
   containers:
-    - name: busybox
+    - name: my-app
       image: naresha553/my-app:2.0.0
       ports:
         - containerPort: 8080

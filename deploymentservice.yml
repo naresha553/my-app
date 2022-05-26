@@ -13,3 +13,4 @@ spec:
         image: naresha553/my-app:2.0.0
         ports:
         - containerPort: 8080
+        hostPort: 8080

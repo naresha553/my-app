@@ -1,11 +1,10 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: Pod
 metadata:
   name: image-deployment
   labels:
     app: my-app
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: my-app

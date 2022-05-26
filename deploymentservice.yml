@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: my-app
-      image: naresha553/my-app:2.0.0
+      image: naresha553/my-app:latest
       ports:
         - containerPort: 8080
           hostPort: 8080

@@ -8,3 +8,7 @@ COPY target/*.war /usr/local/tomcat/webapps/myweb.war
 #testing master branch git
 #testing git
 #testing git again
+RUN echo 'we are running some # of cool things'
+RUN echo hello \
+# comment
+world

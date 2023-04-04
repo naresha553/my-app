@@ -10,5 +10,6 @@ COPY target/*.war /usr/local/tomcat/webapps/myweb.war
 #testing git again
 RUN echo 'we are running some # of cool things'
 RUN echo hello \
+RUN cat <<EOT >> /etc/test.conf
 # comment
 world

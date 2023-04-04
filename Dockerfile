@@ -13,4 +13,4 @@ RUN echo hello \
 # comment
 world
 
-RUN cat test > /etc/test.conf
+RUN echo test 
